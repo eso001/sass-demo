@@ -1,17 +1,23 @@
 
 .DS_Store
 
+bem/npm-debug.log
 bem/node_modules
 bem/output
 
+file-architecture/npm-debug.log
 file-architecture/node_modules
 file-architecture/output
 
+npm-script/npm-debug.log
 npm-script/node_modules
 npm-script/output
 
+
+sass-functionality/npm-debug.log
 sass-functionality/node_modules
 sass-functionality/output
 
+webpack-demo/npm-debug.log
 webpack-demo/node_modules
 webpack-demo/output
