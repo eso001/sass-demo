@@ -1,0 +1,55 @@
+.login {
+  width:350px;
+  height:275px;
+  margin: 120px auto;
+  padding:35px 20px;
+  background-color: $primary-grey-background;
+  @include box-shadow(2px,2px,9px,5px,rgba(101,101,102,1));
+  font-size:15px;
+
+  h1 {
+    margin-bottom:5px;
+    color: $primary-dark-green;
+  }
+
+  input {
+    display:block;
+    width:300px;
+    height:$form-element-height;
+    margin:10px auto;
+    padding:5px 10px;
+    background-color: $primary-offwhite-light;
+  }
+
+  hr {
+    border-color: 1px solid $primary-offwhite-dark;
+  }
+
+  span {
+    display: block;
+    color: $primary-offwhite-dark;
+    margin-top:15px;
+    font-size:12px;
+  }
+}
+
+/* if login was different from default button  */
+.login__button {
+  display: inline-block;
+  width:45%;
+  height:$form-element-height;
+  margin:0 auto;
+}
+
+/* BEM Modifier classes */
+.login__button--confirm {
+  @extend .button;
+  background-color: $primary-dark-green;
+  color: $primary-offwhite-light;
+}
+
+.login__button--select {
+  @extend .button;
+  background-color: $primary-light-green;
+  color: $primary-offwhite-light;
+}

@@ -1,0 +1,17 @@
+
+.DS_Store
+
+bem/node_modules
+bem/output
+
+file-architecture/node_modules
+file-architecture/output
+
+npm-script/node_modules
+npm-script/output
+
+sass-functionality/node_modules
+sass-functionality/output
+
+webpack-demo/node_modules
+webpack-demo/output

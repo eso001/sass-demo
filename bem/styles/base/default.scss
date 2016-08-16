@@ -1,0 +1,23 @@
+$form-element-height: 35px;
+$form-element-font-size: 15px;
+
+body {
+  font-family: $primary-font-family;
+  background-color: $primary-light-green;
+  text-align: center;
+}
+
+a {
+  color: $primary-dark-green;
+  text-decoration: none;
+}
+
+button {
+  border:none;
+  border-color:none;
+}
+
+input {
+  border: none;
+  border-color: transparent;
+}

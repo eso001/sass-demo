@@ -1,0 +1,65 @@
+/* Note this CSS code is NOT optimal and does not follow best practices.
+Do not model your CSS code on below code.
+It is used as base code to refactor for the CSS topics we will explore later on.  */
+
+body {
+  background-color: #66BD49;
+  text-align: center;
+  font-family: "lucida grande"
+}
+
+.login {
+  width:350px;
+  height:275px;
+  background-color: #fefefe;
+  margin: 120px auto;
+  padding:35px 20px;
+  -webkit-box-shadow: 2px 2px 9px 5px rgba(101,101,102,1);
+  -moz-box-shadow: 2px 2px 9px 5px rgba(101,101,102,1);
+  box-shadow: 2px 2px 9px 5px rgba(101,101,102,1);
+
+  h1 {
+    color: #00B140;
+    margin-bottom:5px;
+  }
+
+  input {
+    background-color: #F1F1F1;
+    display:block;
+    width:300px;
+    height:35px;
+    margin:10px auto;
+    padding:5px 10px;
+    font-size: 15px;
+    border: none;
+    border-color: transparent;
+  }
+
+  hr {
+    border-color: 1px solid #CDCDCD;
+  }
+
+  .button {
+    background-color: #00B140;
+    color: #F1F1F1;
+    display: inline-block;
+    margin:0 auto;
+    width:45%;
+    height:35px;
+    border:none;
+    border-color:none;
+    font-size:13px;
+  }
+
+  span {
+    display: block;
+    color: #CDCDCD;
+    margin-top:10px;
+    font-size: 15px;
+  }
+
+  a {
+    color: #00B140;
+    text-decoration: none;
+  }
+}
